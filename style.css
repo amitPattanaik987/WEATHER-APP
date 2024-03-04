@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.card button img {
+    height: 70px;
+    width: 70px;
+}
+
+.card button {
+    margin-top: 50px;
+    margin-left: 305px;
+    border-radius: 10px;
+    height: 87px;
+    width: 84px;
+}
+
+input[type="text"] {
+    padding-left: 2px;
+    font-size: 25px;
+}
+
+.card input {
+    margin-top: 50px;
+    height: 84px;
+    width: 300px;
+    position: absolute;
+    border-radius: 10px;
+}
+
+.card input::placeholder {
+    font: 2rem/3 sans-serif;
+}
+
+.card {
+    width: 470px;
+    height: 600px;
+    background: linear-gradient(135deg, #00feba, #5b548a);
+    color: #fff;
+    margin: 50px auto 0px;
+    padding: 15px;
+    text-align: center;
+    border-radius: 20px;
+}
+#sun_rain_img{
+    width: 150px;
+    height: 150px;
+}
+.data{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 42px 75px 0px 75px
+}
+#humidity img{
+    width: 100px ;
+    height: 112px ;
+}
+#wind-speed img{
+    width: 100px;
+    height: 112px;
+}
